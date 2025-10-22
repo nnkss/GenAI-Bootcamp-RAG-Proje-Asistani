@@ -51,9 +51,6 @@ Bu talimatlar, projeyi kendi bilgisayarında (yerel ortamda) çalıştırmak ist
     Daha sonra tarayıcınızı **`http://localhost:8501`** adresinden açın.
 
 ---
-<img width="592" height="449" alt="image" src="https://github.com/user-attachments/assets/23726bac-dd70-40ec-9c64-2787a65d256b" />
-
----
 
 ## 5. Yapılandırma (Varsayılanlar)
 
