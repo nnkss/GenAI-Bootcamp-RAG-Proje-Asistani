@@ -30,19 +30,28 @@ Bu uygulama, bootcamp'e ait proje kurallarını ve teknik gereksinimleri indeksl
 
 ---
 
-## 4. Çalıştırma Kılavuzu (Setup)
+### Proje Çalıştırma Talimatları (Yerel Ortam - Local Setup)
 
-Bu proje **Colab ortamında çalıştırılmak üzere** tasarlanmıştır. Tüm kurulum ve veritabanı oluşturma adımları not defteri içinde otomatiktir.
+Bu talimatlar, projeyi kendi bilgisayarında (yerel ortamda) çalıştırmak isteyen bir geliştirici için tasarlanmıştır.
 
-### A. Ortamı Hazırlayın
+1.  **Depoyu Klonlayın:** Proje dosyalarını yerel bilgisayarınıza indirin.
+    ```bash
+    git clone [https://github.com/nnkss/GenAI-Bootcamp-RAG-Proje-Asistani.git](https://github.com/nnkss/GenAI-Bootcamp-RAG-Proje-Asistani.git)
+    cd GenAI-Bootcamp-RAG-Proje-Asistani
+    ```
+2.  **Bağımlılıkları Yükleyin:** Gerekli tüm kütüphaneleri `requirements.txt` dosyasından yükleyin.
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  **Yapılandırma:** Yerel ortamda **`GOOGLE_API_KEY`** adlı bir ortam değişkeni ayarlayın veya projenin kök dizinine API anahtarınızı içeren bir **`.env`** dosyası oluşturun.
+4.  **Uygulamayı Başlatın:** Streamlit uygulamasını başlatın.
+    ```bash
+    streamlit run app.py
+    ```
+    Daha sonra tarayıcınızı **`http://localhost:8501`** adresinden açın.
 
-1.  **Gerekli Dosyalar:** Tüm proje dosyalarını (kod ve veri) bir Colab oturumuna yükleyin.
-2.  **API Anahtarını Kaydedin:** Gizli Anahtarlar (🔑) bölümüne **`GEMINI_API_KEY`** adıyla anahtarınızı kaydedin.
-3.  **Çalıştırma Zamanı:** Donanım hızlandırıcıyı **T4 GPU** olarak ayarlayın.
-
-### B. Çalıştırma
-
-`RAG_Chatbot_Projesi.ipynb` dosyasını açın ve **tüm kod bloklarını yukarıdan aşağıya, sırasıyla** çalıştırın. Not defteri, tüm kütüphaneleri kuracak ve uygulamayı başlatacaktır.
+---
+<img width="592" height="449" alt="image" src="https://github.com/user-attachments/assets/23726bac-dd70-40ec-9c64-2787a65d256b" />
 
 ---
 
