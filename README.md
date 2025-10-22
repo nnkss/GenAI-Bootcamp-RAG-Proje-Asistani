@@ -67,9 +67,13 @@ Projeniz için kullanılan kritik teknik parametreler aşağıdadır:
 
 GenAI-Bootcamp-RAG-Proje-Asistani/ 
 ├── GenAI Bootcamp Projesi.pdf # Veri kaynağı (GitHub'a yüklenmiştir) 
+
 ├── app.py # Streamlit arayüzü ve RAG sorgu akışı 
-├── RAG_Chatbot_Projesi.ipynb # Çalışma Kılavuzu, RAG Kurulumu ve Geliştirme Notları 
+
+├── RAG_Chatbot_Projesi.ipynb # Çalışma Kılavuzu, RAG Kurulumu ve Geliştirme Notları
+
 ├── requirements.txt # Python bağımlılıkları 
+
 └── README.md # Bu dosya
 
 ## Canlı Proje Linki
