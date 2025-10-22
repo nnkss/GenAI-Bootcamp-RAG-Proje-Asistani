@@ -81,4 +81,4 @@ GenAI-Bootcamp-RAG-Proje-Asistani/
 
 > **Canlı Proje Linki:**  https://structural-scoop-senior-jane.trycloudflare.com
 
-**ÖNEMLİ NOT:** Colab oturumu kapalı olduğu için bu link şu an pasif olabilir. Projeyi kontrol edecek ekibin, `RAG_Chatbot_Projesi.ipynb` dosyasındaki son bloğu çalıştırarak linki kendilerinin aktif etmesi gerekmektedir.
+**ÖNEMLİ NOT:** Colab oturumu kapalı olduğu için bu link şu an pasif olabilir. Projeyi kontrol edecek ekibin, `GenAI_Bootcamp_RAG_Proje_Asistani.ipynb` dosyasındaki son bloğu çalıştırarak linki kendilerinin aktif etmesi gerekmektedir.
